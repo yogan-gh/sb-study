@@ -17,4 +17,4 @@ for index in range(1, count + 1):
     for song in violator_songs:
         if song[0] == name:
             total_time += song[1]
-print(f"Общее время звучания песен: {total_time} минуты")
+print(f"Общее время звучания песен: {round(total_time, 2)} минуты")
